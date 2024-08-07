@@ -1,0 +1,136 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    background-color: cornsilk;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: cornsilk;
+    padding: 30px 140px 20px 140px;
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: firebrick;
+    font-style: italic;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(211, 194, 194);
+    width: 530px;
+    border-radius: 35px;
+    height: 45px;
+    padding: 8px;
+    background-color: antiquewhite;
+}
+.list-item{
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(126, 65, 65);
+}
+nav a:hover{
+    border: 1px solid;
+    border-radius: 35px;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 35px;
+}
+.banner-content{
+    text-align: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.row{
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.row > div{
+    flex: 1;
+}
+.banner-image{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.nature-title{
+    font-weight: 800;
+    font-size: 35px;
+}
+.nature-description{
+    font-size: 18px;
+    font-weight: 500;
+}
+.question{
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.question1{
+font-size: 20px;
+font-weight: 500;
+}
+.text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.select{
+    display: inline;
+}
+h3{
+    text-align: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-image{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-items{
+    list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(126, 65, 65);
+    font-weight: 500;
+    font-size: 18px;
+}
+.foot{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
